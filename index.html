@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkPhongNumber(str) {
+        let regPhone = /^\([0-9]{2}\)[0]{1}[0-9]{9}$/
+        if (regPhone.test(str)){
+            console.log("true")
+        } else {
+            console.log("false")
+        }
+    }
+    checkPhongNumber("(84)0989432393")
+</script>
+</body>
+</html>
